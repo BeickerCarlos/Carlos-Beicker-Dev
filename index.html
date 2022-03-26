@@ -5,6 +5,17 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Carlos Beicker Dev</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
+<script>
+function EnviaOla() {
+    alert("Legal termos você aqui em nosso site! :)")
+    nome=prompt("Qual seu nome?", "");
+    alert("Ok " + nome + ", agora iremos criar um perfil para você, mas precisamos do seu e-mail")
+    email=prompt("Digite seu e-mail aqui:", "");
+    alert("Ótimo! Seu e-mail para login é: " + email)
+}
+
+</script>
+
 </head>
 <body>
 <h1> Computador a venda </h1>
@@ -14,6 +25,7 @@
     Consome pouca eletricidade e é bem compacto<br>
     Computador ultra moderno, de última geração, lançado em 
     <a href="https://pt.wikipedia.org/wiki/2022" title="2022"> 2022 </a> </p>
+<input type="button" onclick="EnviaOla();" value="Login">
 <img src="imagens/mini-pc.png">
 </body>
 </html>
